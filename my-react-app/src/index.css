@@ -1,0 +1,261 @@
+
+
+/* For the Input portion */
+
+
+.addButton{
+  border-radius: 15px;
+  border-width: 0px;
+
+  
+  
+  background-color: #dda15e;
+  color: white;
+  
+  padding-top: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 7px;
+  transition-duration: 0.15s;
+  font-size:12px;
+
+  margin-left: 7%;
+  margin-top: 5%;
+
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+
+.addButton:hover{
+  background-color: #bc6c25;
+
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 8px;
+  
+}
+.addButton:active{
+  background-color: #d4a373;
+}
+
+.inputDiv {
+  border-width: 10px;
+  background-color: #283618;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom:35px;
+  padding-left: 45px;
+
+
+  
+}
+
+
+
+
+
+.playwrite-is-title {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #606c38;
+  color: white;
+  text-align: center;
+}
+
+.inputBox{
+  border-radius: 15px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 50px;
+  margin-top: 40px;
+  border:none;
+  width:40%;
+  color: #d4a373;
+
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  transition-duration: 0.15s;
+
+}
+
+.inputBox:hover{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  border:none;
+  width:45%;
+
+}
+
+
+.inputDate{
+  border-radius: 15px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 7px;
+  border: none;
+  
+  transition-duration: 0.15s;
+
+
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #d4a373;
+}
+
+.inputDate:hover{
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  
+  border:none;
+  
+
+}
+
+
+/* For the List portion */
+
+.displayDiv{
+  background-color:#d4a373 ;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+
+  width:80%;
+
+}
+
+ul{
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+li{
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border:none;
+
+  padding-left: 25px;
+  padding-bottom: 20px;
+  
+  
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+
+}
+.task{
+  color: #bc6c25;
+  padding-top: 15px;
+  
+  
+
+  width:100%;
+  
+  
+
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+
+.dueDate{
+  display: inline-block;
+  border-color: #bc6c25;
+  border-radius: 20px;
+  background-color: #606c38;
+  color: whitesmoke;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.due{
+  color: whitesmoke;
+  font-weight: bold;
+  margin-right: 5px;
+
+}
+
+
+
+.taskDone{
+  display: inline-block;
+  background-color: #606c38;
+  color: white;
+  border-radius: 20px;
+  border-width: 0px;
+  
+  padding-top: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 8px;
+
+  transition-duration: 0.15s;
+
+  font-weight: bold;
+  font-size:15px;
+
+  margin-left: 3%;
+  margin-top: 20px;
+
+  right:0;
+}
+
+.taskDone:hover{
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+
+  background-color: #283618;
+}
+
+.taskDone:active{
+  background-color: #ccd5ae;
+}
